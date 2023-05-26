@@ -53,7 +53,11 @@ ul {
   text-align: center;
   letter-spacing: 1px;
 }
-
+.right-image img{
+  border-radius: 50%;
+  height: 25vh;
+  width: 25vh;
+}
 .nav {
   position: fixed;
   z-index: 1;
@@ -190,7 +194,7 @@ ul {
   }
   .burger--active .burger__patty {
     -webkit-transform: scale(0.8) rotate(90deg);
-            transform: scale(0.8) rotate(90deg);
+    transform: scale(0.8) rotate(90deg);
   }
 }
 
@@ -239,7 +243,7 @@ ul {
 
 .b-blue {
   margin-bottom: -2px;
-  background-image: url(first-bg.png);
+  background-image: url(../img/first-bg.png);
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
@@ -248,7 +252,7 @@ ul {
 }
 
 .b-red {
-  background-image: url(second-bg.png);
+  background-image: url(../img/second-bg.png);
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
@@ -259,7 +263,7 @@ ul {
 
 .b-green {
   margin-top: -2px;
-  background-image: url(third-bg.png);
+  background-image: url(../img/third-bg.png);
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
@@ -269,7 +273,7 @@ ul {
 
 .b-yellow {
   margin-top: -1px;
-  background-image: url(fourth-bg.png);
+  background-image: url(../img/fourth-bg.png);
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
@@ -659,7 +663,7 @@ ul {
 
 /* Preload images */
 body:after {
-  content: url(close.png) url(loading.gif) url(prev.png) url(next.png);
+  content: url(../img/close.png) url(../img/loading.gif) url(../img/prev.png) url(../img/next.png);
   display: none;
 }
 
@@ -737,7 +741,7 @@ body.lb-disable-scrolling {
   width: 32px;
   height: 32px;
   margin: 0 auto;
-  background: url(loading.gif) no-repeat;
+  background: url(../img/loading.gif) no-repeat;
 }
 
 .lb-nav {
@@ -768,7 +772,7 @@ body.lb-disable-scrolling {
   width: 34%;
   left: 0;
   float: left;
-  background: url(prev.png) left 48% no-repeat;
+  background: url(../img/prev.png) left 48% no-repeat;
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
   opacity: 0;
   -webkit-transition: opacity 0.6s;
@@ -786,7 +790,7 @@ body.lb-disable-scrolling {
   width: 64%;
   right: 0;
   float: right;
-  background: url(next.png) right 48% no-repeat;
+  background: url(../img/next.png) right 48% no-repeat;
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
   opacity: 0;
   -webkit-transition: opacity 0.6s;
@@ -854,7 +858,7 @@ body.lb-disable-scrolling {
   float: right;
   width: 30px;
   height: 30px;
-  background: url(close.png) top right no-repeat;
+  background: url(../img/close.png) top right no-repeat;
   text-align: right;
   outline: none;
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=70);
@@ -1020,7 +1024,7 @@ body.lb-disable-scrolling {
   top: 50%;
   margin-left: -40px;
   margin-top: -40px;
-  background: url("owl.video.play.png") no-repeat;
+  background: url("img/owl.video.play.png") no-repeat;
   cursor: pointer;
   z-index: 1;
   -webkit-backface-visibility: hidden;
